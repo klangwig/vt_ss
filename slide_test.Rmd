@@ -1,0 +1,28 @@
+---
+title: "Working with GitHub in RStudio"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Preparation
+
+- Make a github user name
+- if you use a mac, get XCode working (https://developer.apple.com/download/)
+- Install tidyverse packages - install.packages("tidyverse")
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
